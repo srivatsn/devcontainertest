@@ -7,7 +7,7 @@ rm packages-microsoft-prod.deb
 
 # Install the .NET Core SDK
 sudo apt-get update
-sudo apt-get install dotnet-sdk-2.2
+sudo apt-get install -y dotnet-sdk-2.2
 
 # Install Azure DevOps credential helper for dotnet restore.
 wget -q https://raw.githubusercontent.com/microsoft/artifacts-credprovider/master/helpers/installcredprovider.sh -O installcredprovider.sh
