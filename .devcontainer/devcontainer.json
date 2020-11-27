@@ -1,6 +1,7 @@
 {
     "extensions": [
         "ms-vscode.csharp"
-	],
+    ],
+    "dockerFile": "Dockerfile"
     "postCreateCommand": "./.devcontainer/initenv",
 }
