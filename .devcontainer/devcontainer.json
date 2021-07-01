@@ -4,4 +4,5 @@
     ],
     "dockerFile": "Dockerfile",
     "postCreateCommand": "./.devcontainer/initenv",
+    "postAttachCommand": "./.devcontainer/initenv",
 }
