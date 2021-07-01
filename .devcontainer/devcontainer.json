@@ -2,6 +2,6 @@
     "extensions": [
         "ms-vscode.csharp"
     ],
-    "postCreateCommand": "./.devcontainer/initenv",
-    "postAttachCommand": "./.devcontainer/initenv",
+    "postCreateCommand": "echo temp >> foo.txt",
+    "postAttachCommand": "echo temp >> foo.txt",
 }
